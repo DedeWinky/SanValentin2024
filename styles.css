@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: #fce8e6; /* Fondo con un tono pastel */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b); /* Degradado con colores cálidos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px;
+    cursor: pointer;
+    background: #4CAF50; /* Verde brillante */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #message {
+    margin-top: 20px;
+    color: red;
+  }
+  
+  /* Fondo con corazones */
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('corazones.png') repeat; /* Ajusta la ruta de la imagen según tu archivo de corazones */
+  }
